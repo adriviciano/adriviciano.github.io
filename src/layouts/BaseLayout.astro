@@ -1,0 +1,46 @@
+---
+import "../styles.css";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About Me</a></li>
+          <li><a href="/skills">Skills</a></li>
+          <li><a href="/projects">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer>
+      <p>© 2024 - Adrián Viciano's Portfolio</p>
+      <ul>
+        <li>
+          <img src="/public/phone.png" />
+          <p>601289004</p>
+        </li>
+        <li>
+          <img src="/public/email.png" />
+          <p>adriviciano@gmail.com</p>
+        </li>
+        <li>
+          <img src="/public/web.png" />
+          <a href="https://www.adriviciano.com">adriviciano.com</a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
