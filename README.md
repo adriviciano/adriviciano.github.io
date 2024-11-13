@@ -1,54 +1,23 @@
-# Astro Starter Kit: Basics
+My Portfolio 🌟
+Welcome to my portfolio! Here, you'll find a showcase of my projects, skills, and experiences as a Computer Engineering student.🚀
 
-```sh
-npm create astro@latest -- --template basics
-```
+About Me
+🎓 Computer Engineering Student at UJI, final year
+💻 Programming Enthusiast: Skilled in languages like Java, Python, PHP and JavaScript
+🛠 3D Printing Fan: Love to experiment with 3D printing and bring digital creations into the physical world
+👀 Tech Explorer: Eager to learn new technologies and apply them in innovative ways
+Projects
+Here's a quick look at some of the projects I've worked on:
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+Plantify - A project developed with the Hackerspace Association of Castellón, which I am a member of. Plantify is a solution for monitoring urban and home gardens using sensors, helping users to better manage plant health and care. This project won first place in the Student category at the 2024 Facsa Hackathon. 🏆
+More projects are available in this repository and on my GitHub profile!
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Skills
+Languages: Java, C, Python, PHP, JavaScript, SQL
+Technologies: Git, Linux, 3D printing
+Concepts: Algorithms, data structures, and software development best practices
+Contact
+Feel free to reach out if you’d like to collaborate or just say hello! 😊
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Email: adriviciano@gmail.com
+Thanks for visiting, and I hope you enjoy exploring my work! ✨
