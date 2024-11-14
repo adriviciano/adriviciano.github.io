@@ -1,0 +1,10 @@
+---
+import { getEntry } from 'astro:content';
+
+const content = await getEntry('pages', 'home');
+---
+
+<section id="home">
+  <h2>{content.data.title}</h2>
+  <p>{content.data.body}</p>
+</section>

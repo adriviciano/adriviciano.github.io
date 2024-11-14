@@ -1,46 +1,25 @@
 ---
 import "../styles.css";
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import AboutSection from '../components/About.astro';
+import ProjectsSection from '../components/Projects.astro';
+import SkillsSection from '../components/Skills.astro';
+import HomeSection from '../components/Home.astro';
 ---
+<head>
+  <title>My Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="description" content="My portfolio website" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<Header />
 
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">About Me</a></li>
-          <li><a href="/skills">Skills</a></li>
-          <li><a href="/projects">Projects</a></li>
-        </ul>
-      </nav>
-    </header>
+<main>
+  <HomeSection />
+  <AboutSection />
+  <ProjectsSection />
+  <SkillsSection />
+</main>
 
-    <main>
-      <slot />
-    </main>
-
-    <footer>
-      <p>© 2024 - Adrián Viciano's Portfolio</p>
-      <ul>
-        <li>
-          <img src="/public/phone.png" />
-          <p>601289004</p>
-        </li>
-        <li>
-          <img src="/public/email.png" />
-          <p>adriviciano@gmail.com</p>
-        </li>
-        <li>
-          <img src="/public/web.png" />
-          <a href="https://www.adriviciano.com">adriviciano.com</a>
-        </li>
-      </ul>
-    </footer>
-  </body>
-</html>
+<Footer />
